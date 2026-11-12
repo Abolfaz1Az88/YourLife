@@ -3,6 +3,7 @@ import { loadState, saveState, getDefaultState, buildPillarTasks, determineFocus
 import type { GameState, OnboardingData } from './lib';
 import Onboarding from './Onboarding';
 import Dashboard from './Dashboard';
+import DesignDocs from './DesignDocs';
 
 export default function App() {
   const [state, setStateRaw] = useState<GameState>(loadState);
